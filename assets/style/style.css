@@ -1,32 +1,31 @@
+/* resetear los estilos */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12pt;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+} */
 
 body{
     background-color: #22223B
-    /* background-image: url('https://png.pngtree.com/background/20230612/original/pngtree-wolf-animals-images-wallpaper-for-pc-384x480-picture-image_3180467.jpg'); */
+    
+   }
 
-
-
-}
-img{
-    border-radius: 25% 25% 25% 25%;
-}
-
-p{
+   body{
+    overflow-x: hidden;
+   }
+h1,h2,h3{
     font-family: ubuntu;
     font-size: 1rem;
     font-weight: bolder;
-}
+    }
 
-
-h2{
-    font-family:ubuntu ;
-    font-size: 32px;
-    font-weight: bolder;
-}
-
-h1{
+p{
     font-family: ubuntu;
-    font-size: 32px;
-    font-weight: bolder ;
 }
 
 /* h1,h2,h3{
@@ -51,7 +50,9 @@ button:hover{
     background-color: rgb(18, 124, 217);
     color: rgb(242, 242, 242);
 } 
+
 /* no colocar el border dentro de hover */
+
 .Jumbotron{
     text-align: center;
     padding: 40pt 0;
@@ -88,8 +89,10 @@ button:hover{
     right: 0;
     position: fixed;
     z-index: -1;
+    justify-content: space-between;
 }
 img{
+    border-radius: 25% 25% 25% 25%;
     width: 100%;
 }
 
@@ -101,6 +104,7 @@ img{
 section{
     padding: 12pt 30px;
 }
+
 
 .navbar{
     display: flex;
