@@ -93,6 +93,16 @@ button:hover{
 }
 img{
     border-radius: 25% 25% 25% 25%;
+    width: 39%;
+    text-align: center;
+}
+.img-redes{
+    width: 20%;
+    text-align: right;
+}
+.img1{
+    align-items: center;
+    text-align: center;
     width: 100%;
 }
 
